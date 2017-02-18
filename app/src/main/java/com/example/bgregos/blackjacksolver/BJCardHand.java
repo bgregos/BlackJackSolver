@@ -1,4 +1,4 @@
-package blackJackSolver;
+package com.example.bgregos.blackjacksolver;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
