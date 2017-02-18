@@ -37,4 +37,9 @@ public class Suit
         }
         return cardSuit;
     }
+    
+    public boolean equals(Object obj)
+    {
+        return (this.suit == ((Suit) obj).suit);
+    }
 }

@@ -22,4 +22,10 @@ public class Card
         String str = val.toString() + " of " +suit.toString();
         return str;
     }
+    
+    public boolean equals(Object obj)
+    {
+        Card otherCard = (Card) obj;
+        return ((otherCard.suit.equals(this.suit)) && ((otherCard.val).getVal() == (this.val).getVal()));
+    }
 }

@@ -14,15 +14,25 @@ public class BlackJack
         deck = new Deck();
         house = new BJCardHand();
         player = new BJCardHand();
-        player.addToHand(deck.draw());
-        player.addToHand(deck.draw());
-        house.addToHand(deck.draw());
-        house.addToHand(deck.draw());
+        //player.addToHand(deck.draw());
+        //player.addToHand(deck.draw());
+        //house.addToHand(deck.draw());
+        //house.addToHand(deck.draw());
         
     }
     
     public BlackJack(int numOfDecks, int players){
         
+    }
+    
+    public void addPlayerCard(String suit, String value)
+    {
+        player.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));
+    }
+    
+    public Deck getDeck()
+    {
+        return deck;
     }
     
     

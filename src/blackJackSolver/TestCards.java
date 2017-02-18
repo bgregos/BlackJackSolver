@@ -40,4 +40,12 @@ public class TestCards extends TestCase
         //System.out.println(test.handTotalOne());
         System.out.print(test.calculateOdds(testD));
     }
+    
+    public void testA()
+    {
+        BlackJack bj = new BlackJack();
+        System.out.println(bj.getDeck().size());
+        bj.addPlayerCard("Spade", "2");
+        System.out.println(bj.getDeck().size());
+    }
 }

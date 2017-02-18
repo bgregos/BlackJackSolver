@@ -65,4 +65,50 @@ public class Deck
         return notDrawn;
         
     }
+    
+    public Card remove(String suit, String value)
+    {
+        Card cardToRemove = makeCard(suit, value);
+        for (int i = 0; i < cards.size(); i++)
+        {
+            if (cardToRemove.equals(cards.get(i)))
+            {
+                cards.remove(i);
+                // to jump out of for loop
+                i = cards.size();
+            }
+        }
+        return cardToRemove;
+    }
+    
+    private Card makeCard(String suit, String value)
+    {
+        int suitValue = -1;
+        int cardValue = -1;
+        if (suit.contains("spade"))
+            suitValue = 1;
+        else if (suit.contains("heart"))
+            suitValue = 2;
+        else if (suit.contains("clubs"))
+            suitValue = 3;
+        else
+            suitValue = 4;
+        
+        if (Character.isDigit(value.charAt(0)))
+            cardValue = Character.getNumericValue(value.charAt(0));
+        else if (value.contains("jack"))
+            cardValue = 11;
+        else if (value.contains("queen"))
+            cardValue = 12;
+        else
+            cardValue = 13;
+            
+        return new Card(suitValue, cardValue);
+    }
+    
+    public int size()
+    {
+        return cards.size();
+    }
+    
 }
