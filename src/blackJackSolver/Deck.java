@@ -24,7 +24,7 @@ public class Deck
     
     public String toString(){
         String allCards = "";
-        for(int i = 0; i < 52; i++){
+        for(int i = 0; i < this.length(); i++){
             allCards += cards.get(i) + "\n";
         }
         return allCards;

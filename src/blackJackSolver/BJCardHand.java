@@ -48,21 +48,30 @@ public class BJCardHand
     }
     
     public String calculateOdds(Deck discard){
-        String result = "";
-        Deck notDrawn = discard.notDrawn();
+        //String result = "";
+        int length = discard.length();
+        Deck notDrawn = discard;//.notDrawn();
         int poss1 = this.handTotalAce();
         int poss2 = this.handTotalOne();
-        int count = 0;
-        if (poss2 < 21){
+        double count = 0.0;
+        if ((poss2 < 21) || (poss1 < 21)){
             while(notDrawn.length() > 0){
                 int newCardVal = notDrawn.draw().getVal().getVal();
-                if (poss2 + newCardVal <= 21){
+                if (((poss2 + newCardVal) <= 21) || ((poss1 + newCardVal) <= 21)){
                     count++;
                 }
             }
         }
         
-        return "You have a %" +((count / discard.length()) * 100) + " of not busting.";
+        return "You have a %" +((count / length) * 100) + " of not busting.";
+    }
+    
+    public String toString(){
+        String allCards = "";
+        for(int i = 0; i < hand.size(); i++){
+            allCards += hand.get(i) + "\n";
+        }
+        return allCards;
     }
     
 }

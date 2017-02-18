@@ -28,11 +28,14 @@ public class TestCards extends TestCase
         Deck testD = new Deck();
         for (int i = 0; i < 25; i++)
             testD.draw();
-        
+        //System.out.println(testD.toString());
         BJCardHand test = new BJCardHand();
-        test.addToHand(new Card(1,1));
-        test.addToHand(new Card(2,5));
-        test.addToHand(new Card(2,10));
+        test.addToHand(testD.draw());
+        test.addToHand(testD.draw());
+        System.out.println(testD.toString() + "\n\n\n");
+        
+        System.out.println(test.toString());
+        //test.addToHand(testD.draw());
         //System.out.println(test.handTotalAce());
         //System.out.println(test.handTotalOne());
         System.out.print(test.calculateOdds(testD));
