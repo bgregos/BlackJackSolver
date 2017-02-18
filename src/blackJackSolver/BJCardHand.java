@@ -1,5 +1,6 @@
 package blackJackSolver;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class BJCardHand
@@ -47,7 +48,7 @@ public class BJCardHand
         return total;
     }
     
-    public String calculateOdds(Deck discard){
+    public double calculateOdds(Deck discard){
         //String result = "";
         int length = discard.length();
         Deck notDrawn = discard;//.notDrawn();
@@ -62,8 +63,29 @@ public class BJCardHand
                 }
             }
         }
-        
-        return "You have a %" +((count / length) * 100) + " of not busting.";
+        BigDecimal bd = new BigDecimal(((count / (double) length) * 100));
+        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
+    }
+    
+    public double calculateOddsWithDealerFaceDown(Deck discard){
+        //String result = "";
+        int length = discard.length();
+        Deck notDrawn = discard;//.notDrawn();
+        int poss1 = this.handTotalAce();
+        int poss2 = this.handTotalOne();
+        double count = 0.0;
+        if ((poss2 < 21) || (poss1 < 21)){
+            while(notDrawn.length() > 0){
+                int newCardVal = notDrawn.draw().getVal().getVal();
+                if (((poss2 + newCardVal) <= 21) || ((poss1 + newCardVal) <= 21)){
+                    count++;
+                }
+            }
+        }
+        BigDecimal bd = new BigDecimal(((count / (double)length) * 100));
+        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
     }
     
     public String toString(){

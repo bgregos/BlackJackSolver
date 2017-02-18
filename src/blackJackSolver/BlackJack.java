@@ -25,7 +25,17 @@ public class BlackJack
         
     }
     
+    public double returnPercentage()
+    {
+        return player.calculateOddsWithDealerFaceDown(deck);
+    }
+    
     public void addPlayerCard(String suit, String value)
+    {
+        player.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));
+    }
+    
+    public void addDealerCard(String suit, String value)
     {
         player.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));
     }

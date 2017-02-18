@@ -26,15 +26,15 @@ public class TestCards extends TestCase
     
     public void testCardhand(){
         Deck testD = new Deck();
-        for (int i = 0; i < 25; i++)
+        for (int i = 0; i < 16; i++)
             testD.draw();
         //System.out.println(testD.toString());
         BJCardHand test = new BJCardHand();
         test.addToHand(testD.draw());
         test.addToHand(testD.draw());
-        System.out.println(testD.toString() + "\n\n\n");
+        //System.out.println(testD.toString() + "\n\n\n");
         
-        System.out.println(test.toString());
+        //System.out.println(test.toString());
         //test.addToHand(testD.draw());
         //System.out.println(test.handTotalAce());
         //System.out.println(test.handTotalOne());
@@ -44,8 +44,8 @@ public class TestCards extends TestCase
     public void testA()
     {
         BlackJack bj = new BlackJack();
-        System.out.println(bj.getDeck().size());
+        //System.out.println(bj.getDeck().size());
         bj.addPlayerCard("Spade", "2");
-        System.out.println(bj.getDeck().size());
+        //System.out.println(bj.getDeck().size());
     }
 }
