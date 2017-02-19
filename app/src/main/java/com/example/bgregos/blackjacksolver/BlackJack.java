@@ -20,7 +20,7 @@ public class BlackJack
     {
         for (int i = 0; i < userSuit.size(); i++)
         {
-            addPlayerCard(userSuit(i), userValue(i));
+            addPlayerCard(userSuit.get(i), userValue.get(i));
         }
     }
 
@@ -28,7 +28,7 @@ public class BlackJack
     {
         for (int i = 0; i < dealerSuit.size(); i++)
         {
-            addPlayerCard(dealerSuit(i), dealerValue(i));
+            addPlayerCard(dealerSuit.get(i), dealerValue.get(i));
         }
     }
 
