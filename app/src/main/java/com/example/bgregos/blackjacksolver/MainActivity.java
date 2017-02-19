@@ -10,12 +10,16 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Context;
+import android.widget.Spinner;
 import android.widget.TableLayout;
+import android.widget.TableRow;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,33 +28,67 @@ public class MainActivity extends AppCompatActivity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
+    private int userid;
+    private int dealerid;
+
+    private void createNewDealerCard(){
+        LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
+                (Context.LAYOUT_INFLATER_SERVICE);
+        TableLayout dealerTable = (TableLayout) /*view.*/findViewById(R.id.dealertable);
+        View tableLayout = inflater.inflate(R.layout.card, null);
+        TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
+        t.setTag(dealerid);
+        dealerid++;
+        Spinner suitSpinner = (Spinner) t.getChildAt(0);
+        Spinner valueSpinner = (Spinner) t.getChildAt(1);
+        dealerSuit.add(suitSpinner.getSelectedItem().toString());
+        dealerValue.add(valueSpinner.getSelectedItem().toString());
+        dealerTable.addView(tableLayout);
+    }
+
+    private void createNewUserCard() {
+        LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
+                (Context.LAYOUT_INFLATER_SERVICE);
+        TableLayout userView = (TableLayout) /*view.*/findViewById(R.id.usertable);
+        View tableLayout = inflater.inflate(R.layout.card, null);
+        TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
+        //System.out.println(t.toString());
+        t.setTag(userid);
+        userid++;
+        Spinner suitSpinner = (Spinner) t.getChildAt(0);
+        Spinner valueSpinner = (Spinner) t.getChildAt(1);
+        userSuit.add(suitSpinner.getSelectedItem().toString());
+        userValue.add(valueSpinner.getSelectedItem().toString());
+        //NOTE: get with findViewByTag();
+        userView.addView(tableLayout);
+    }
+
+    private ArrayList<String> userSuit;
+    private ArrayList<String> userValue;
+    private ArrayList<String> dealerSuit;
+    private ArrayList<String> dealerValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        userid=0;
+        dealerid=0;
+        userSuit = new ArrayList<>();
+        userValue = new ArrayList<>();
+        dealerSuit = new ArrayList<>();
+        dealerValue = new ArrayList<>();
+        System.out.println("Launched!");
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         FloatingActionButton dfab = (FloatingActionButton) findViewById(R.id.dfab);
-        //ArrayAdapter<String > gender_adapter = new ArrayAdapter<String> (getActivity(), R.layout.spinner_style,gender_spinner );
 
         for (int i = 0; i < 2; i++) {
-            LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
-                        (Context.LAYOUT_INFLATER_SERVICE);
-                TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.usertable);
-            System.out.println(tableView.toString());
-            View tableLayout = inflater.inflate(R.layout.card, null);
-            tableView.addView(tableLayout);
+            createNewUserCard();
         }
 
-        //create new card
-        LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
-                (Context.LAYOUT_INFLATER_SERVICE);
-        TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.dealertable);
-        System.out.println(tableView.toString());
-        View tableLayout = inflater.inflate(R.layout.card, null);
-        tableView.addView(tableLayout);
+        createNewDealerCard();
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
                 LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
                         (Context.LAYOUT_INFLATER_SERVICE);
                 TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.usertable);
-                System.out.println(tableView.toString());
                 View tableLayout = inflater.inflate(R.layout.card, null);
                 tableView.addView(tableLayout);
             }
@@ -72,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
                 LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
                         (Context.LAYOUT_INFLATER_SERVICE);
                 TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.dealertable);
-                System.out.println(tableView.toString());
                 View tableLayout = inflater.inflate(R.layout.card, null);
                 tableView.addView(tableLayout);
             }
@@ -80,6 +116,11 @@ public class MainActivity extends AppCompatActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        for(String s: userSuit){
+            System.out.println(s);
+        }
+        //END OF ON CREATE
     }
 
     @Override
