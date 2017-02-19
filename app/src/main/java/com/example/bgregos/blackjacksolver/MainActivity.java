@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         TableLayout dealerTable = (TableLayout) /*view.*/findViewById(R.id.dealertable);
         View tableLayout = inflater.inflate(R.layout.card, null);
         TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
-        t.setTag(dealerid);
+        t.setTag(dealerid+"D");
         Spinner suitSpinner = (Spinner) t.getChildAt(0);
         Spinner valueSpinner = (Spinner) t.getChildAt(1);
         dealerSuit.add(suitSpinner.getSelectedItem().toString());
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         View tableLayout = inflater.inflate(R.layout.card, null);
         TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
         //System.out.println(t.toString());
-        t.setTag(userid);
+        t.setTag(userid+"U");
         Spinner suitSpinner = (Spinner) t.getChildAt(0);
         Spinner valueSpinner = (Spinner) t.getChildAt(1);
         userSuit.add(suitSpinner.getSelectedItem().toString());
@@ -111,12 +111,36 @@ public class MainActivity extends AppCompatActivity {
         calculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
-                ((TextView) disptext).setText(percentage + "%");
                 System.out.println("BUTTON PRESSED");
+                userSuit.clear();
+                userValue.clear();
+                dealerSuit.clear();
+                dealerValue.clear();
+
+                for(int i=0; i<userid; i++){
+                    TableRow t = (TableRow) findViewById(android.R.id.content).findViewWithTag(i+"U");
+                    Spinner suitSpinner = (Spinner) t.getChildAt(0);
+                    Spinner valueSpinner = (Spinner) t.getChildAt(1);
+                    userSuit.add(suitSpinner.getSelectedItem().toString());
+                    userValue.add(valueSpinner.getSelectedItem().toString());
+                }
+
+                for(int i=0; i<dealerid; i++){
+                    TableRow t = (TableRow) findViewById(android.R.id.content).findViewWithTag(i+"D");
+                    Spinner suitSpinner = (Spinner) t.getChildAt(0);
+                    Spinner valueSpinner = (Spinner) t.getChildAt(1);
+                    dealerSuit.add(suitSpinner.getSelectedItem().toString());
+                    dealerValue.add(valueSpinner.getSelectedItem().toString());
+                }
+
                 for(String s: userSuit){
                     System.out.println(s);
                 }
+                for (String s: userValue){
+                    System.out.println(s);
+                }
+                double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
+                ((TextView) disptext).setText(percentage + "%");
             }
         });
 
