@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a3f8034f364a6c83fa37a70d20df98348385de56">
+        sha1="2adee94e0436506cb9e54b8dfaac73c7924848a4">
         <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_42d868dc7f45d6dfe293d5ce9b2dab0ec3c42bee/classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="106231c7b954e45d3b6fd8009f81049107d3b231">
+        sha1="3ed992ae989129c12db0e09215007379415e9548">
         <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f0ce6e5ca76babd1ca94fb0f574dd1ed4589af6d/classes.dex" />
     </item>
     <item
