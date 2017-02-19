@@ -3,174 +3,174 @@
 
     <item
         is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_3765b6c58829f76942e785023d9637f7e324aa95/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_55194af478f5c0dfca5422da04067049ffe94fba/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_a98ea1972c7b64989772280c302ff9d3e74f5fe8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_10226ae4fc9b66b7f2641dd824cc14efce0d490c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_37d7dd6a79a1c661ef99a383910a103f6a4fd7da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="72e0bc05143b3cd2ed182d865fe9f4dda55c6a62">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8177b59eaa01e32efb93fc70cdcb02f7d6eb14ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_27f8e12d10b7a25f2ae7e6ac54be9c543392dd38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f90e2b5e4b29df447ed9e29c806521ebd5b2de3b">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e26c65d9653125f7359bea8efb9840d6e28aceec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_b95ab2eb55d452ce9c5184f412b3303f8d7a0a42/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_9132f92067a3a8e13bee90c929db421525c0595f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_983f9246dcc4fe05b137dc81af103f2f8e16190b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_eb6ded84b180d7679644def89200d1b6504b9b26/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_47c889ec05ff0ea30deb805c9c06c9ef9a83eff2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_d5a129d8826f5fa2437aabca77b9dac2337b83bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_d43b7812dc00996347e5784f658b5505bc0770f5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_e16db8ee91f941e0178fc635fd31e9d4894826b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_71ea5f2efc3f5f3fd893ddaaaa0dedfbd4828f7a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_0e748dd1eeb0f409f35aae924a4aa50722f1909e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/bgregos/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_cd08543589c623451449673d4448bad390a9d30f/classes.dex" />
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_6e9984da5755a13c7a935a8f4ab1a42494dd2f21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_e18a5b5b70997e8ca3f97bd0e12147d6ca377e95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_0caeb50c4ae4c01ff870e88ec4ad0dfbb4955263/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_a34d4f45e19650aa998809ac03d7fbc8ae924898/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_6e3e86fbae735e2dab3f66785b343f163dc9de82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_9118c243741f254c12e8fca5c651d730328fed83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_6677e2e21c7558dd6126ac31cb39e040f53d0838/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_d0c1741f1c20feff08c1e93b4c3324b5b3fb1841/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79e9efd6a57c1adee8a292a80925a87c0da25203">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_42d868dc7f45d6dfe293d5ce9b2dab0ec3c42bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_88d9849d601990f26645eb472c926b7ef94e9244/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_f8b81648eb0293608a46d184a9aa0900d334c2cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_be1001616f3c2f4582e6c57ce63c7503c4301305/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_74b50a05b8fe191e96314eb10204747ab7d92e13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_3c641b179c5e4646eff8d9294137faf509f9bf27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_15d172c149de379e5dca21b168c474ecd33a6374/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_e64389ce66fb4615db55a269601beb704a69834e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6a30939b37a351f11dd24255eb6ec4e5a09e2bc">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f0ce6e5ca76babd1ca94fb0f574dd1ed4589af6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_3cb5db1b0462e875c3f77aded9e751c89e7dde8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/Kipp/Documents/workspace/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_a174fe1f73b55d9114a6107e1c255a8099a011e4/classes.dex" />
     </item>
 
 </items>
