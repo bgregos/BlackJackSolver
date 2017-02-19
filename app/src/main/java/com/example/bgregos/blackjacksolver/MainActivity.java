@@ -10,9 +10,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Context;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import android.widget.TextView;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -83,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         FloatingActionButton dfab = (FloatingActionButton) findViewById(R.id.dfab);
+        FloatingActionButton calculate = (FloatingActionButton) findViewById(R.id.calculate);
+        final TextView disptext = findViewById(R.id.dispText);
 
         for (int i = 0; i < 2; i++) {
             createNewUserCard();
@@ -93,26 +97,25 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //create new card
-                LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
-                        (Context.LAYOUT_INFLATER_SERVICE);
-                TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.usertable);
-                View tableLayout = inflater.inflate(R.layout.card, null);
-                tableView.addView(tableLayout);
+                createNewUserCard();
             }
         });
 
         dfab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //create new card
-                LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
-                        (Context.LAYOUT_INFLATER_SERVICE);
-                TableLayout tableView = (TableLayout) /*view.*/findViewById(R.id.dealertable);
-                View tableLayout = inflater.inflate(R.layout.card, null);
-                tableView.addView(tableLayout);
+                createNewDealerCard();
             }
         });
+
+        calculate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
+                disptext.setText(percentage + "%");
+            }
+        });
+
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
