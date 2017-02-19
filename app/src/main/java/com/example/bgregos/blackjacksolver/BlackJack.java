@@ -28,13 +28,13 @@ public class BlackJack
     {
         for (int i = 0; i < dealerSuit.size(); i++)
         {
-            addPlayerCard(dealerSuit.get(i), dealerValue.get(i));
+            addDealerCard(dealerSuit.get(i), dealerValue.get(i));
         }
     }
 
     public double returnPercentage()
     {
-        return player.calculateOddsWithDealerFaceDown(deck);
+        return player.calculateOddsWithDealerFaceDown(this);
     }
     
     private void addPlayerCard(String suit, String value)
@@ -44,7 +44,7 @@ public class BlackJack
     
     private void addDealerCard(String suit, String value)
     {
-        player.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));
+        house.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));
     }
     
     public Deck getDeck()

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BlackJackSolver</string>
+    <string name="app_name">Blackjack Genie</string>
     <string name="action_settings">Settings</string>
     <string-array name="Suits">
         <item>Hearts</item>

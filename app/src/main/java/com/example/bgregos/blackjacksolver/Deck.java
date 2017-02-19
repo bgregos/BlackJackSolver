@@ -61,7 +61,6 @@ public class Deck
         for (int i = 0; i < this.length(); i++){
             notDrawn.removeCard(this.getCardAt(i));
         }
-        
         return notDrawn;
         
     }
@@ -69,6 +68,7 @@ public class Deck
     public Card remove(String suit, String value)
     {
         Card cardToRemove = makeCard(suit, value);
+        //System.out.println(cardToRemove.toString());
         for (int i = 0; i < cards.size(); i++)
         {
             if (cardToRemove.equals(cards.get(i)))
@@ -83,8 +83,8 @@ public class Deck
     
     private Card makeCard(String suit, String value)
     {
-        int suitValue = -1;
-        int cardValue = -1;
+        int suitValue = 0;
+        int cardValue = 0;
         if (suit.contains("spade"))
             suitValue = 1;
         else if (suit.contains("heart"))
@@ -94,15 +94,16 @@ public class Deck
         else
             suitValue = 4;
         
-        if (Character.isDigit(value.charAt(0)))
-            cardValue = Character.getNumericValue(value.charAt(0));
-        else if (value.contains("jack"))
-            cardValue = 11;
+        if (value.contains("king"))
+            cardValue = 13;
         else if (value.contains("queen"))
             cardValue = 12;
+        else if (value.contains("jack"))
+            cardValue = 11;
         else
-            cardValue = 13;
-            
+            cardValue = Integer.parseInt(value);
+
+        //System.out.println("" + suitValue + "\n" + cardValue);
         return new Card(suitValue, cardValue);
     }
     

@@ -12,6 +12,8 @@ public class Value
 
     public int getVal()
     {
+        if (val > 10)
+            return 10;
         return val;
     }
 

@@ -12,23 +12,23 @@
         android:layout_alignParentStart="true" >
 
         <Spinner
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:id="@+id/spinner"
             android:entries="@array/Suits"
             android:spinnerMode="dropdown"
             android:layout_width="120dp"
             android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
             style="@style/Widget.AppCompat.Spinner.DropDown"
-            android:layout_marginRight="100dp" />
+            android:layout_marginRight="70dp" />
 
         <Spinner
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:id="@+id/spinner2"
             android:entries="@array/CardValues"
             android:spinnerMode="dropdown"
-            android:layout_width="50dp"
             android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
-            style="@style/Widget.AppCompat.Spinner.DropDown" />
+            style="@style/Widget.AppCompat.Spinner.DropDown"
+            android:layout_width="90dp" />
 
     </TableRow>
 </RelativeLayout>

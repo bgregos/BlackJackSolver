@@ -19,7 +19,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BJCardHand.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BJCardHand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Deck.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Deck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Value.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Value.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/card.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="BlackJackSolver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,15 +61,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+            <state relative-caret-position="390">
+              <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4207#5836#0" expanded="true" />
-                <element signature="e#5835#5836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,11 +86,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spinner_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding>
+                <element signature="e#277#295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -94,16 +124,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card.xml">
+      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="460">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="BJCardHand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BJCardHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlackJack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Value.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Value.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1848,10 +1918,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/card.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Value.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Deck.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BJCardHand.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java" />
       </list>
     </option>
   </component>
@@ -1981,6 +2055,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJackSolver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackJackSolver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2445,6 +2549,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
@@ -2459,18 +2572,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012276785" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24839744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2480,7 +2594,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2510,8 +2623,6 @@
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2555,8 +2666,6 @@
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2589,8 +2698,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2612,8 +2719,6 @@
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2669,8 +2774,6 @@
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2690,8 +2793,6 @@
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2764,45 +2865,16 @@
         <state relative-caret-position="45">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -2817,15 +2889,88 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#277#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+        <state relative-caret-position="390">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4207#5836#0" expanded="true" />
-            <element signature="e#5835#5836#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bgregos/blackjacksolver/BJCardHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -132,13 +132,14 @@ public class MainActivity extends AppCompatActivity {
                     dealerSuit.add(suitSpinner.getSelectedItem().toString());
                     dealerValue.add(valueSpinner.getSelectedItem().toString());
                 }
-
+                /*
                 for(String s: userSuit){
                     System.out.println(s);
                 }
                 for (String s: userValue){
                     System.out.println(s);
                 }
+                */
                 double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
                 ((TextView) disptext).setText(percentage + "%");
             }
