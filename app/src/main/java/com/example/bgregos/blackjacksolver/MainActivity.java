@@ -141,7 +141,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 */
                 double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
-                ((TextView) disptext).setText(percentage + "%");
+                double BJPercentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnBlackjackPercentage();
+                ((TextView) disptext).setText("Chances of not busting: " + percentage + "%\n" + "Chances of Blackjack: " + BJPercentage + "%");
             }
         });
 

@@ -36,7 +36,12 @@ public class BlackJack
     {
         return player.calculateOddsWithDealerFaceDown(this);
     }
-    
+
+    public double returnBlackjackPercentage()
+    {
+        return player.calculateOddsOfBlackJack(this);
+    }
+
     private void addPlayerCard(String suit, String value)
     {
         player.addToHand(deck.remove(suit.toLowerCase(), value.toLowerCase()));

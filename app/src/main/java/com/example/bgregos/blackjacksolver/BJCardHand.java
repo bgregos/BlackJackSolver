@@ -82,10 +82,33 @@ public class BJCardHand
         int poss2 = this.handTotalOne();
         System.out.println("" + poss1 + "\n" + poss2);
         double count = 0.0;
-        if ((poss2 <= 21) || (poss1 <= 21)){
+        if ((poss2 < 21) || (poss1 < 21)){
             while(notDrawn.length() > 0){
                 int newCardVal = notDrawn.draw().getVal().getVal();
                 if (((poss2 + newCardVal) <= 21) || ((poss1 + newCardVal) <= 21)){
+                    count++;
+                }
+            }
+        }
+        BigDecimal bd = new BigDecimal(((count / (double)length) * 100));
+        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
+    }
+
+    public double calculateOddsOfBlackJack(BlackJack game){
+        //String result = "";
+        //System.out.println(hand.toString());
+
+        Deck notDrawn = game.getDeck();//.notDrawn();
+        int length = notDrawn.length();
+        int poss1 = this.handTotalAce();
+        int poss2 = this.handTotalOne();
+        System.out.println("" + poss1 + "\n" + poss2);
+        double count = 0.0;
+        if ((poss2 < 21) || (poss1 < 21)){
+            while(notDrawn.length() > 0){
+                int newCardVal = notDrawn.draw().getVal().getVal();
+                if (((poss2 + newCardVal) == 21) || ((poss1 + newCardVal) == 21)){
                     count++;
                 }
             }
