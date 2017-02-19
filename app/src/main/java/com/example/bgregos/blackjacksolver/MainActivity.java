@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
         View tableLayout = inflater.inflate(R.layout.card, null);
         TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
         t.setTag(dealerid);
-        dealerid++;
         Spinner suitSpinner = (Spinner) t.getChildAt(0);
         Spinner valueSpinner = (Spinner) t.getChildAt(1);
         dealerSuit.add(suitSpinner.getSelectedItem().toString());
         dealerValue.add(valueSpinner.getSelectedItem().toString());
         dealerTable.addView(tableLayout);
+        dealerid++;
     }
 
     private void createNewUserCard() {
@@ -56,13 +56,13 @@ public class MainActivity extends AppCompatActivity {
         TableRow t = (TableRow) tableLayout.findViewById(R.id.tr);
         //System.out.println(t.toString());
         t.setTag(userid);
-        userid++;
         Spinner suitSpinner = (Spinner) t.getChildAt(0);
         Spinner valueSpinner = (Spinner) t.getChildAt(1);
         userSuit.add(suitSpinner.getSelectedItem().toString());
         userValue.add(valueSpinner.getSelectedItem().toString());
         //NOTE: get with findViewByTag();
         userView.addView(tableLayout);
+        userid++;
     }
 
     private ArrayList<String> userSuit;
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         FloatingActionButton dfab = (FloatingActionButton) findViewById(R.id.dfab);
         FloatingActionButton calculate = (FloatingActionButton) findViewById(R.id.calculate);
-        final TextView disptext = findViewById(R.id.dispText);
+        final View disptext = findViewById(R.id.dispText);
 
         for (int i = 0; i < 2; i++) {
             createNewUserCard();
@@ -112,7 +112,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 double percentage = new BlackJack(userSuit, userValue, dealerSuit, dealerValue).returnPercentage();
-                disptext.setText(percentage + "%");
+                ((TextView) disptext).setText(percentage + "%");
+                System.out.println("BUTTON PRESSED");
+                for(String s: userSuit){
+                    System.out.println(s);
+                }
             }
         });
 
