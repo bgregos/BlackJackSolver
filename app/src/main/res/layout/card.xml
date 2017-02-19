@@ -27,8 +27,8 @@
             android:spinnerMode="dropdown"
             android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
             style="@style/Widget.AppCompat.Spinner.DropDown"
-            android:layout_width="90dp"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:layout_width="110dp" />
 
     </TableRow>
 </RelativeLayout>

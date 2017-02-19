@@ -59,7 +59,7 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
+                android:layout_height="188dp"
                 android:background="@color/cardview_dark_background">
 
                 <TableLayout
@@ -98,7 +98,7 @@
 
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="178dp"
+                    android:layout_height="155dp"
                     android:background="@color/cardview_dark_background">
 
                     <TableLayout
@@ -155,7 +155,8 @@
         app:layout_anchor="@+id/content_main"
         android:layout_marginTop="5dp"
         android:paddingTop="20dp"
-        app:elevation="24dp" />
+        app:elevation="24dp"
+        android:tint="@color/cardview_light_background" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/dfab"
@@ -166,6 +167,7 @@
         app:backgroundTint="@android:color/holo_green_light"
         app:layout_anchorGravity="center_vertical|right"
         android:layout_gravity="center_vertical|left"
-        app:layout_anchor="@+id/content_main" />
+        app:layout_anchor="@+id/content_main"
+        android:tint="@color/cardview_light_background" />
 
 </android.support.design.widget.CoordinatorLayout>

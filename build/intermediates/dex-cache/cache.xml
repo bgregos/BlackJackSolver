@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510b03896169d9ac0ba046999ab20713e8ed9494">
+        sha1="bad1861ce8ecf9e34ab1ce69bd1598925ac52078">
         <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8177b59eaa01e32efb93fc70cdcb02f7d6eb14ea/classes.dex" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="5d8620f7cd5918d65a6ee30ed7beb5a1681ac1fb">
+        sha1="629b5f1b70de218bb574415ff7ff699ed8591dcf">
         <dex dex="/home/bgregos/BlackJackSolver/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e26c65d9653125f7359bea8efb9840d6e28aceec/classes.dex" />
     </item>
     <item
