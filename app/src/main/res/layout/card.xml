@@ -17,14 +17,15 @@
             android:spinnerMode="dropdown"
             android:layout_width="120dp"
             android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
-            style="@style/Widget.AppCompat.Spinner.DropDown" />
+            style="@style/Widget.AppCompat.Spinner.DropDown"
+            android:layout_marginRight="100dp" />
 
         <Spinner
             android:layout_height="wrap_content"
             android:id="@+id/spinner2"
             android:entries="@array/CardValues"
             android:spinnerMode="dropdown"
-            android:layout_width="120dp"
+            android:layout_width="50dp"
             android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
             style="@style/Widget.AppCompat.Spinner.DropDown" />
 
